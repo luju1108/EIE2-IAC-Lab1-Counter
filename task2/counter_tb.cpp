@@ -3,6 +3,12 @@
 #include "verilated_vcd_c.h"
 #include "vbuddy.cpp"
 
+/*
+Connecting to UBS Vbuddy: in Administrator: Windows PowerShell run:
+usbipd wsl list
+usbipd wsl attach --busid <BUSID>
+*/
+
 int main(int argc, char **argv, char **env){
     int i;
     int clk;
